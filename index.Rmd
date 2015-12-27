@@ -1,0 +1,34 @@
+---
+title       : "Developing Data Product - Slidify"
+subtitle    : "Course project"
+---
+
+## Problem statment
+
+hello 
+--- .class #id 
+
+
+## Car fuel Efficiency
+
+
+--- .class #id 
+
+## Assumptions
+
+
+--- .class #id 
+
+
+## Overview
+
+
+--- .class #id 
+
+
+## Feedback
+
+
+#widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+
+

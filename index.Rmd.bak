@@ -1,0 +1,56 @@
+---
+title       : "Developing Data Product - Slidify"
+subtitle    : "Course project"
+author      : "Joseph Swaminathan"
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Problem statment
+
+Gasoline prices are on the rise
+2. There is social awarness about eco friendly cars
+3. Due to such reasons, the car industry is very conscious about fuel efficiency
+4. This product will help the car industry to analyze historical data to determine what aspects of the car needs to be improved to get higher fuel efficiency
+--- .class #id 
+
+
+## Car fuel Efficiency
+
+1. There are many factors (predictors) in a car that contribute to fuel efficiency
+2. Picking the right factors (predictors) will result in accurate results
+3. This product allows user to try multiple factors to determine the top three predictors
+
+--- .class #id 
+
+## Assumptions
+
+1. It assumes all factors are independent and identically distributed
+2. It assumes a maximum of three factors influence the fuel efficiency
+2. It assumes the data provided in mtcars library is accurate and recent
+
+--- .class #id 
+
+
+## Overview
+
+1. It uses Linear regression model with mpg (miles per gallon) as the dependent variable
+2. It calculates linear regression of mpg agains the three chosen factors
+3. It uses anova function to determine if these three factors influence mpg
+3. Once the user finishes selecting three factors he/she must press submit to see the anova results
+
+--- .class #id 
+
+
+## Feedback
+
+1. Please send your feedback to  email@domain.com
+
+
+#widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+
+
